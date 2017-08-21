@@ -1,6 +1,6 @@
 ﻿namespace Sedc.FaceApi.Models
 {
-    public class Facelandmarks
+    public class FaceLandmarks
     {
         public PixelCoordinate PupilLeft { get; set; }
         public PixelCoordinate PupilRight { get; set; }

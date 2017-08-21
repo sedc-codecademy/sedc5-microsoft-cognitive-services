@@ -1,6 +1,6 @@
 ﻿namespace Sedc.FaceApi.Models
 {
-    public class Facerectangle
+    public class FaceRectangle
     {
         public int Top { get; set; }
         public int Left { get; set; }

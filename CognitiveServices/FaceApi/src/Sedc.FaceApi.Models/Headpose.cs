@@ -1,6 +1,6 @@
 ﻿namespace Sedc.FaceApi.Models
 {
-    public class Headpose
+    public class HeadPose
     {
         public float Pitch { get; set; }
         public float Roll { get; set; }

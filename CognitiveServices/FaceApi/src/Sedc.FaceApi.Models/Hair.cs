@@ -4,7 +4,7 @@
     {
         public float Bald { get; set; }
         public bool Invisible { get; set; }
-        public Haircolor[] HairColor { get; set; }
+        public HairColor[] HairColor { get; set; }
     }
 
 }

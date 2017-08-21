@@ -1,6 +1,6 @@
 ﻿namespace Sedc.FaceApi.Models
 {
-    public class Facialhair
+    public class FacialHair
     {
         public float Moustache { get; set; }
         public float Beard { get; set; }
