@@ -20,7 +20,7 @@ namespace Sedc.FaceApi.ConsoleDemo
 
         // Replace the subscriptionKey string value with your valid subscription key.
         const string subscriptionKey = "5dabb79d306d40e89ae25c74d43dbba0";
-        const string path = "mr-bean.jpg";
+        const string path = "jimcarrey.jpg";
         // Replace or verify the region.
         //
         // You must use the same region in your REST API call as you used to obtain your subscription keys.
