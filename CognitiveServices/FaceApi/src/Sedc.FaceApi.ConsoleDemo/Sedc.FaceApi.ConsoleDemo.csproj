@@ -6,6 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Sedc.FaceApi.ImageEditor\Sedc.FaceApi.ImageEditor.csproj" />
+    <ProjectReference Include="..\Sedc.FaceApi.Models\Sedc.FaceApi.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="mr-bean.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

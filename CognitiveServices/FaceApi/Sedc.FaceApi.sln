@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.8
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sedc.FaceApi.ConsoleDemo", "src\Sedc.FaceApi.ConsoleDemo\Sedc.FaceApi.ConsoleDemo.csproj", "{51FCC740-6857-4DD1-8EEA-F6A8DC1F123F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{243C5631-858D-4E8A-BA4C-691B52CAE22B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sedc.FaceApi.Models", "src\Sedc.FaceApi.Models\Sedc.FaceApi.Models.csproj", "{786095F6-B62B-49DE-8A92-282BC4273A7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sedc.FaceApi.Models", "src\Sedc.FaceApi.Models\Sedc.FaceApi.Models.csproj", "{786095F6-B62B-49DE-8A92-282BC4273A7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sedc.FaceApi.ImageEditor", "src\Sedc.FaceApi.ImageEditor\Sedc.FaceApi.ImageEditor.csproj", "{E195F355-004F-4120-BB3A-82950D64C1CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sedc.ImageEditor", "src\Sedc.ImageEditor\Sedc.ImageEditor.csproj", "{D292ED9F-1DE8-44DF-BCCC-A31567BFB699}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,30 @@ Global
 		{786095F6-B62B-49DE-8A92-282BC4273A7A}.Release|x64.Build.0 = Release|Any CPU
 		{786095F6-B62B-49DE-8A92-282BC4273A7A}.Release|x86.ActiveCfg = Release|Any CPU
 		{786095F6-B62B-49DE-8A92-282BC4273A7A}.Release|x86.Build.0 = Release|Any CPU
+		{E195F355-004F-4120-BB3A-82950D64C1CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E195F355-004F-4120-BB3A-82950D64C1CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E195F355-004F-4120-BB3A-82950D64C1CD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E195F355-004F-4120-BB3A-82950D64C1CD}.Debug|x64.Build.0 = Debug|Any CPU
+		{E195F355-004F-4120-BB3A-82950D64C1CD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E195F355-004F-4120-BB3A-82950D64C1CD}.Debug|x86.Build.0 = Debug|Any CPU
+		{E195F355-004F-4120-BB3A-82950D64C1CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E195F355-004F-4120-BB3A-82950D64C1CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E195F355-004F-4120-BB3A-82950D64C1CD}.Release|x64.ActiveCfg = Release|Any CPU
+		{E195F355-004F-4120-BB3A-82950D64C1CD}.Release|x64.Build.0 = Release|Any CPU
+		{E195F355-004F-4120-BB3A-82950D64C1CD}.Release|x86.ActiveCfg = Release|Any CPU
+		{E195F355-004F-4120-BB3A-82950D64C1CD}.Release|x86.Build.0 = Release|Any CPU
+		{D292ED9F-1DE8-44DF-BCCC-A31567BFB699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D292ED9F-1DE8-44DF-BCCC-A31567BFB699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D292ED9F-1DE8-44DF-BCCC-A31567BFB699}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D292ED9F-1DE8-44DF-BCCC-A31567BFB699}.Debug|x64.Build.0 = Debug|Any CPU
+		{D292ED9F-1DE8-44DF-BCCC-A31567BFB699}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D292ED9F-1DE8-44DF-BCCC-A31567BFB699}.Debug|x86.Build.0 = Debug|Any CPU
+		{D292ED9F-1DE8-44DF-BCCC-A31567BFB699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D292ED9F-1DE8-44DF-BCCC-A31567BFB699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D292ED9F-1DE8-44DF-BCCC-A31567BFB699}.Release|x64.ActiveCfg = Release|Any CPU
+		{D292ED9F-1DE8-44DF-BCCC-A31567BFB699}.Release|x64.Build.0 = Release|Any CPU
+		{D292ED9F-1DE8-44DF-BCCC-A31567BFB699}.Release|x86.ActiveCfg = Release|Any CPU
+		{D292ED9F-1DE8-44DF-BCCC-A31567BFB699}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +78,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{51FCC740-6857-4DD1-8EEA-F6A8DC1F123F} = {243C5631-858D-4E8A-BA4C-691B52CAE22B}
 		{786095F6-B62B-49DE-8A92-282BC4273A7A} = {243C5631-858D-4E8A-BA4C-691B52CAE22B}
+		{E195F355-004F-4120-BB3A-82950D64C1CD} = {243C5631-858D-4E8A-BA4C-691B52CAE22B}
+		{D292ED9F-1DE8-44DF-BCCC-A31567BFB699} = {243C5631-858D-4E8A-BA4C-691B52CAE22B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9D02CC19-5030-4778-B700-21A1D46690CA}
