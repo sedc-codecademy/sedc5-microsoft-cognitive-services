@@ -9,14 +9,6 @@ namespace Sedc.FaceApi.ConsoleDemo
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-
-            
-
-            Console.ReadLine();
-        }
-
         
     }
 }

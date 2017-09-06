@@ -4,6 +4,8 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.IO;
 using System.Text;
+using Newtonsoft.Json;
+using System.Collections.Generic;
 
 namespace Sedc.FaceApi.ConsoleDemo
 {
@@ -20,7 +22,7 @@ namespace Sedc.FaceApi.ConsoleDemo
 
         // Replace the subscriptionKey string value with your valid subscription key.
         const string subscriptionKey = "5dabb79d306d40e89ae25c74d43dbba0";
-        const string path = "jimcarrey.jpg";
+        const string path = "mr-bean.jpg";
         // Replace or verify the region.
         //
         // You must use the same region in your REST API call as you used to obtain your subscription keys.
@@ -32,7 +34,7 @@ namespace Sedc.FaceApi.ConsoleDemo
         const string uriBase = "https://westcentralus.api.cognitive.microsoft.com/face/v1.0/detect";
 
 
-        static void Mains()
+        static void Main(string[] args)
         {
             // Get the path and filename to process from the user.
             Console.WriteLine("Detect faces:");
@@ -82,7 +84,10 @@ namespace Sedc.FaceApi.ConsoleDemo
 
                 // Display the JSON response.
                 Console.WriteLine("\nResponse:\n");
-                Console.WriteLine(JsonPrettyPrint(contentString));
+                var parsed = JsonConvert.DeserializeObject<List<ModelsFromApi.FaceDetection>>(contentString);
+                Console.WriteLine(JsonConvert.SerializeObject(parsed,Formatting.Indented));
+
+                Console.ReadLine();
             }
         }
 
