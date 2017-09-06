@@ -6,6 +6,7 @@ using System.IO;
 using System.Text;
 using Newtonsoft.Json;
 using System.Collections.Generic;
+using System.Drawing;
 
 namespace Sedc.FaceApi.ConsoleDemo
 {
@@ -86,6 +87,23 @@ namespace Sedc.FaceApi.ConsoleDemo
                 Console.WriteLine("\nResponse:\n");
                 var parsed = JsonConvert.DeserializeObject<List<ModelsFromApi.FaceDetection>>(contentString);
                 Console.WriteLine(JsonConvert.SerializeObject(parsed,Formatting.Indented));
+
+
+                //var mrBeanImage = Image.FromFile("mr-bean.jpg");
+                //var image2 = Image.FromFile("glasses.png");
+                //var width = mrBeanImage.Width;
+                //var height = mrBeanImage.Height;
+
+                //Graphics graphicsMrBean = Graphics.FromImage(mrBeanImage);
+
+                ////graphicsMrBean.DrawLine(Pens.Black, new Point(0, 0),
+                ////    new Point(width, height));
+
+                //graphicsMrBean.DrawImage(image2, 0, 0, 300, 300);
+
+                //graphicsMrBean.Save();
+                //mrBeanImage.Save("new.png");
+
 
                 Console.ReadLine();
             }
